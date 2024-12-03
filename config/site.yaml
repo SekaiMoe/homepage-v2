@@ -1,0 +1,33 @@
+# Site Configuration
+name: "Candy"
+avatar: "/avatar.jpg"
+background: "/background.jpg"
+bio: "Welcome to my site! There's links to all my stuff below, feel free to get in touch!"
+buttonColor: "#9333ea"
+
+# Social Links
+workLinks:
+  - name: "Github"
+    url: "https://github.com/candy"
+    icon: "Github"
+  - name: "LinkedIn"
+    url: "https://linkedin.com/in/candy"
+    icon: "Linkedin"
+  - name: "Email"
+    url: "mailto:candy@example.com"
+    icon: "Mail"
+
+funLinks:
+  - name: "Discord"
+    url: "https://discord.gg/candy"
+    icon: "DiscIcon"
+  - name: "Nintendo"
+    url: "https://nintendo.com/candy"
+    icon: "Gamepad2"
+  - name: "Youtube"
+    url: "https://youtube.com/candy"
+    icon: "Youtube"
+  - name: "Twitch"
+    url: "https://twitch.tv/candy"
+    icon: "Twitch"
+
