@@ -20,7 +20,7 @@ const iconMap = {
 
 export default function LandingPage() {
   const [isDark, setIsDark] = useState(true)
-  const [config, setConfig] = useState(null)
+  const [config, setConfig] = useState<Config | null>(null);
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
