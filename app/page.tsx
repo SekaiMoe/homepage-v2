@@ -101,7 +101,8 @@ export default function LandingPage() {
               <h2 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Work Stuff</h2>
               <div className="space-y-2">
                 {config.workLinks.map((link, index) => {
-                  const Icon = iconMap[link.icon]
+                  //const Icon = iconMap[link.icon]
+                  const Icon = iconMap[link.icon as keyof typeof iconMap]
                   return (
                     <Button 
                       key={index}
