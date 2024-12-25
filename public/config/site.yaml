@@ -1,33 +1,21 @@
 # Site Configuration
-name: "Candy"
+name: "SekaiMoe"
 avatar: "/avatar.jpg"
 background: "/background.jpg"
-bio: "Welcome to my site! There's links to all my stuff below, feel free to get in touch!"
-buttonColor: "#9333ea"
+bio: "我萌故我在！"
+buttonColor: "#fdd3e4"
 
 # Social Links
 workLinks:
   - name: "Github"
-    url: "https://github.com/candy"
+    url: "https://github.com/dabao1955"
     icon: "Github"
-  - name: "LinkedIn"
-    url: "https://linkedin.com/in/candy"
-    icon: "Linkedin"
   - name: "Email"
-    url: "mailto:candy@example.com"
+    url: "mailto:dabao1955@163.com"
     icon: "Mail"
 
 funLinks:
   - name: "Discord"
-    url: "https://discord.gg/candy"
+    url: "https://discord.gg/dabao1955"
     icon: "DiscIcon"
-  - name: "Nintendo"
-    url: "https://nintendo.com/candy"
-    icon: "Gamepad2"
-  - name: "Youtube"
-    url: "https://youtube.com/candy"
-    icon: "Youtube"
-  - name: "Twitch"
-    url: "https://twitch.tv/candy"
-    icon: "Twitch"
 
