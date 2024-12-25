@@ -1,7 +1,7 @@
 # Site Configuration
 name: "SekaiMoe"
 avatar: "/avatar.jpg"
-background: "/background.jpg"
+background: "/background.png"
 bio: "我萌故我在！"
 buttonColor: "#fdd3e4"
 
