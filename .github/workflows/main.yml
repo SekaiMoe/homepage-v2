@@ -1,0 +1,24 @@
+name: Auto Merge PR
+on:
+  pull_request:
+  check_suite:
+    types:
+      - completed
+  status: { }
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: automerge
+        uses: "pascalgn/automerge-action@v0.16.4"
+        env:
+          GITHUB_TOKEN: "${{ secrets.BOT_TOKEN }}"
+          MERGE_LABELS: "auto merge"
+          MERGE_METHOD: "rebase"
+          MERGE_COMMIT_MESSAGE: "automatic"
+          MERGE_FORKS: "true"
+          MERGE_RETRIES: "6"
+          UPDATE_METHOD: "rebase"
