@@ -12,6 +12,7 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      - uses: hmarr/auto-approve-action@v4
       - name: automerge
         uses: "pascalgn/automerge-action@v0.16.4"
         env:
